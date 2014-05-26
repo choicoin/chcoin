@@ -1,0 +1,34 @@
+src/*.exe
+src/choic
+src/choicd
+src/test_choic
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.choic
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+choic-qt
+Choic-Qt.app
+
+# Unit-tests
+Makefile.test
+choic-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
